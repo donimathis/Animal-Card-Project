@@ -1,0 +1,31 @@
+/* add your CSS here */
+.cardbox {
+	width: 300px;
+	border: 5px solid #888;
+	border-radius: 4px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 3px #888;
+	background-color: crimson;
+}
+.cardbox h3 {
+	background-color: rgba(255, 255, 255, 0.9)
+    padding-left: 10px;
+}
+.factbox {
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.factbox p:first-child {
+	font-style: italic;
+}
+.factbox ul {
+	list-style: none;
+	padding: 0;
+}
+.factbox ul li span:first-child {
+	font-weight: bold;
+}
